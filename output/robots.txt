@@ -1,0 +1,4 @@
+Sitemap: http://gamma.cs.unc.edu/ClothM/sitemapindex.xml
+
+User-Agent: *
+Host: gamma.cs.unc.edu

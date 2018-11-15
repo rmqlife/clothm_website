@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Cloth Manipulation Using Random-Forest-Based Controller Parametrization | Cloth Manipulation</title>
+<link href="../assets/css/bitter.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/main.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/rst.css" rel="stylesheet" type="text/css">
+<link href="../assets/css/code.css" rel="stylesheet" type="text/css">
+<link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
+<link rel="canonical" href="http://gamma.cs.unc.edu/ClothM/robustm/">
+<!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]--><meta name="author" content="Biao Jia">
+<meta property="og:site_name" content="Cloth Manipulation">
+<meta property="og:title" content="Cloth Manipulation Using Random-Forest-Based Controller Parametrizatio">
+<meta property="og:url" content="http://gamma.cs.unc.edu/ClothM/robustm/">
+<meta property="og:description" content="Authors
+
+
+Biao Jia, University of North Carolina at Chapel Hill
+Zherong Pan, University of North Carolina at Chapel Hill
+Zhe Hu, City University of Hong Kong
+Jia Pan,  City University of Hong Kong
+Din">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2017-09-15T10:00:00-03:00">
+<meta property="article:tag" content="Computer Vision">
+<meta property="article:tag" content="Machine Learning">
+<meta property="article:tag" content="Robotics">
+<meta name="author" content="Biao Jia">
+<meta property="og:site_name" content="Cloth Manipulation">
+<meta property="og:title" content="Cloth Manipulation Using Random-Forest-Based Controller Parametrizatio">
+<meta property="og:url" content="http://gamma.cs.unc.edu/ClothM/robustm/">
+<meta property="og:description" content="Authors
+
+
+Biao Jia, University of North Carolina at Chapel Hill
+Zherong Pan, University of North Carolina at Chapel Hill
+Zhe Hu, City University of Hong Kong
+Jia Pan,  City University of Hong Kong
+Din">
+<meta property="og:type" content="article">
+<meta property="article:published_time" content="2017-09-15T10:00:00-03:00">
+<meta property="article:tag" content="Computer Vision">
+<meta property="article:tag" content="Machine Learning">
+<meta property="article:tag" content="Robotics">
+</head>
+<body>
+    <section class="social"><ul>
+<li><a href="../index.html" title="Home"><i class="icon-home"></i></a></li>
+            <li><a href="../archive.html" title="Archives"><i class="icon-folder-open-alt"></i></a></li>
+            <li><a href="../categories/index.html" title="Tags"><i class="icon-tags"></i></a></li>
+            <li><a href="../rss.xml" title="RSS"><i class="icon-rss"></i></a></li>
+            <li><a href="https://github.com/rmqlife" title="My Github"><i class="icon-github"></i></a></li>
+
+        </ul></section><section class="page-content"><div class="content" rel="main">
+            
+<article class="storypage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name">Cloth Manipulation Using Random-Forest-Based Controller Parametrization</h1>
+
+        
+
+    </header><div itemprop="articleBody text">
+    <div>
+<div class="section" id="authors">
+<h2>Authors</h2>
+<blockquote>
+<ul class="simple">
+<li>
+<a class="reference external" href="http://cs.unc.edu/~dm">Biao Jia</a>, University of North Carolina at Chapel Hill</li>
+<li>Zherong Pan, University of North Carolina at Chapel Hill</li>
+<li>Zhe Hu, City University of Hong Kong</li>
+<li>
+<a class="reference external" href="http://www.cityu.edu.hk/mbe/jiapan/">Jia Pan</a>,  City University of Hong Kong</li>
+<li>
+<a class="reference external" href="http://cs.unc.edu/~dm">Dinesh Manocha</a>, University of North Carolina at Chapel Hill</li>
+</ul>
+</blockquote>
+</div>
+<div class="section" id="overview-video">
+<h2>Overview Video</h2>
+<div class="youtube-video align-center">
+<iframe width="425" height="344" src="https://www.youtube.com/embed/iQu85o8lFjA?rel=0&amp;hd=1&amp;wmode=transparent"></iframe>
+</div>
+</div>
+<div class="section" id="arxiv-report">
+<h2>ArXiv Report</h2>
+<blockquote>
+<ul class="simple">
+<li><a class="reference external" href="https://arxiv.org/abs/1802.09661">https://arxiv.org/abs/1802.09661</a></li>
+</ul>
+</blockquote>
+</div>
+<div class="section" id="abstract">
+<h2>Abstract</h2>
+<blockquote>
+<ul class="simple">
+<li>We present a novel approach for the manipulation of high-DOF deformable objects such as cloth. Our approach uses a random-forest-based controller that maps the observed visual features of the cloth to an optimal control action of the manipulator.  The topological structure of this random-forest-based controller is determined automatically based on the training data consisting of visual features and control actions.  This enables us to integrate the overall process of training data classification and controller optimization into an imitation learning (IL) algorithm.  Our approach enables joint feature extraction and controller optimization for cloth. We have evaluated our approach on different cloth manipulation benchmarks such as flattening, folding and twisting. In practice, our approach works well with deformable features learned based on the specific task. Moreover, our controller outperforms a simple or piecewise linear controller parametrization in terms of robustness to noise. In addition, our approach is easy to implement and does not require much parameter tuning.</li>
+</ul>
+</blockquote>
+</div>
+<div class="section" id="benchmarks">
+<h2>Benchmarks</h2>
+<div class="youtube-video align-center">
+<iframe width="425" height="344" src="https://www.youtube.com/embed/UIwLz47s2wM?rel=0&amp;hd=1&amp;wmode=transparent"></iframe>
+</div>
+<div class="youtube-video align-center">
+<iframe width="425" height="344" src="https://www.youtube.com/embed/qwvRgID08TY?rel=0&amp;hd=1&amp;wmode=transparent"></iframe>
+</div>
+</div>
+<div class="section" id="related">
+<h2>Related</h2>
+<blockquote>
+<ul class="simple">
+<li><a class="reference external" href="../clothm">Manipulating Highly Deformable Materials Using a Visual Feedback Dictionary</a></li>
+<li><a class="reference external" href="http://gamma.cs.unc.edu/">GAMMA Group at UNC</a></li>
+</ul>
+</blockquote>
+</div>
+</div>
+    </div>
+</article><footer id="footer"><p>Contents © 2018         <a href="mailto:biao@cs.unc.edu">Biao Jia</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         </p>
+            
+        </footer>
+</div>
+    </section><script src="../assets/js/jquery-1.10.2.min.js" type="text/javascript"></script><script src="../assets/js/jquery.timeago.js" type="text/javascript"></script><script type="text/javascript">
+            $(function(){
+                $('.timeago').timeago();
+            });
+        </script>
+</body>
+</html>
